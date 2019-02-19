@@ -14,14 +14,14 @@ window.onresize = () => {
 };
 
 // Changes width on drag
-movement.ondrag = event => {
+window.ondrag = event => {
     // Changes the width value on drag event
     imgContainer.style.width = event.clientX + document.body.scrollLeft + 'px';
     movement.style.left = event.clientX + document.body.scrollLeft + 'px';
 }
 
 // Holds the current past position
-movement.ondragend = event => {
+window.ondragend = event => {
     // Maintain changes of the width when stopped dragging
     imgContainer.style.width = event.clientX + document.body.scrollLeft + 'px';
     movement.style.left = event.clientX + document.body.scrollLeft + 'px';
