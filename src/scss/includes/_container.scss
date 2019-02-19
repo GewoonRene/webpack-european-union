@@ -8,11 +8,13 @@ body {
 }
 
 .left {
+    overflow: hidden;
     position: absolute;
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
 
     img {
+        width: 100vw;
         z-index: 0;
     }
 
@@ -20,7 +22,6 @@ body {
 
 .right {
     position: absolute;
-    
     width: 100vw;
     height: 100vh;
 
