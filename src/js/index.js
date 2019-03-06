@@ -11,4 +11,3 @@ window.addEventListener('mousemove', event => {
     panelEl.style.width = event.clientX + document.body.scrollLeft + 'px';
 
 });
-
