@@ -2,8 +2,31 @@
 @import'./includes/colours';
 @import'./includes/container';
 
+
 * { box-sizing: border-box; }
 
+body {
+	overflow: hidden;
+	cursor: none;
+}
+
+.container {
+    width: 100vw;
+	height: 100vh;
+}
+
+.cursor {
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	border-radius: 25px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+// DEFAULT CSS
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
