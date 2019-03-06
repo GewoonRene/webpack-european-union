@@ -1,4 +1,4 @@
-import {TweenMax, Timeline } from 'gsap';
+import { TweenMax, TimelineMax  } from 'gsap';
 // Imports
 
 // Variables
