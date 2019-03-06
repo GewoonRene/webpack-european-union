@@ -1,6 +1,7 @@
 @charset 'utf-8';
-@import'./includes/colours';
-@import'./includes/container';
+@import './includes/colours';
+@import './includes/container';
+@import './includes/assets';
 
 
 * { box-sizing: border-box; }
@@ -12,7 +13,7 @@ body {
 
 .container {
     width: 100vw;
-	height: 100vh;
+		height: 100vh;
 }
 
 .cursor {
@@ -24,7 +25,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-  }
+}
 
 // DEFAULT CSS
 html, body, div, span, applet, object, iframe,
@@ -69,4 +70,49 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+#trail1 {
+	width: 1px;
+	height: 1px;
+}
+
+#trail2 {
+	width: 2px;
+	height: 2px;
+}
+
+#trail3 {
+	width: 4px;
+	height: 4px;
+}
+
+#trail4 {
+	width: 6px;
+	height: 6px;
+}
+
+#trail5 {
+	width: 10px;
+	height: 10px;
+}
+
+#trail6 {
+	width: 12px;
+	height: 12px;
+}
+
+#trail7 {
+	width: 15px;
+	height: 15px;
+}
+
+#trail8 {
+	width: 18px;
+	height: 18px;
+}
+
+#trail9 {
+	width: 20px;
+	height: 20px;
 }

@@ -1,13 +1,12 @@
 import '../scss/main.scss';
-import './cursor';
+import './utils/cursor';
+import './utils/assets';
 // Importss
 
 // Variables
-const panelEl = document.getElementById('left');
+const leftContainer = document.getElementById('left');
+const rightContainer = document.getElementById('right');
 
-// Event Handlers
 window.addEventListener('mousemove', event => {
-    // Panel follows mouse
-    panelEl.style.width = event.clientX + document.body.scrollLeft + 'px';
-
+    leftContainer.style.width = event.clientX + document.body.scrollLeft + 'px';
 });
