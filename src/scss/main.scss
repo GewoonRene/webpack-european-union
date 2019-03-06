@@ -1,8 +1,19 @@
 @charset 'utf-8';
 @import'./includes/colours';
+@import'./includes/container';
 
 * { box-sizing: border-box; }
 
+body {
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+// DEFAULT CSS
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

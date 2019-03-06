@@ -1,0 +1,53 @@
+
+
+.left {
+    overflow: hidden;
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+
+    img {
+        width: 100vw;
+        z-index: 0;
+    }
+
+}
+
+.center {
+    background-color: rgba($color: #f5f5f5, $alpha: 0.5);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+
+}
+
+.right {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+
+    img {
+        width: 100vw;
+        z-index: -10;
+    }
+}
+
+.grabbable {
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.grabbable:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
